@@ -64,7 +64,6 @@ public class LoginTest {
         String login = "";
         courierSteps
                 .login(login, password)
-                .log().all()
                 .statusCode(400);
     }
 
